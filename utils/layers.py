@@ -290,5 +290,5 @@ class U_net():
         self.accuracy=1-dice_coe(self.y_pred,y)
         tf.summary.scalar('lost',self.cost)
         tf.summary.scalar('accuracy',self.accuracy)	
-#        return self.cost,self.accuracy
+
                         
